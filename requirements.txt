@@ -1,8 +1,0 @@
-tkinter
-Pillow
-pathlib
-subprocess
-threading
-re
-os
-shutil
