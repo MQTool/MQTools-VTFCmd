@@ -3,7 +3,7 @@
 面向 Source 引擎材质的图形工具（集成版 GUI）。支持从贴图生成 VTF 与 VMT；Windows 提供可执行版。
 
 ## 功能
-- 一键从常规或 PBR 贴图生成 `VTF` 与 `VMT`（标准/patch 格式）
+- 一键从常规或 PBR 贴图生成 `VTF` 与 `VMT`
 - 支持 PBR 通道映射（Metallic/Roughness/AO），可通过 `presets.json` 配置
 - 自动检测并生成发光材质（`_e` 贴图）与法线引用
 - 批量处理与路径映射，可融合现有 `VMT` 保留自定义参数
