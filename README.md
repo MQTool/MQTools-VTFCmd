@@ -23,9 +23,6 @@
 - 在仓库根目录：`pyinstaller VTF-Material-Tool-PySide6.spec`
 - 产物位于 `dist/`，文件名：`MQTools-VTFCmd v1.5.exe`
 
-## 使用说明
-- 详见 `VTF-Material-Tool-Integrated/README.md`
-
 ## 致谢与来源
 - PBR 转化算法参考并改写自：https://github.com/koerismo/PBR-2-Source
 - VTFCmd 来自：https://github.com/Sky-rym/VTFEdit-Reloaded
