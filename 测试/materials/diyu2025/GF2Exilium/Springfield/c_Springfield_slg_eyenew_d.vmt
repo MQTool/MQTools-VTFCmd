@@ -1,0 +1,12 @@
+patch
+{
+	include	"materials/diyu2025/GF2Exilium/Springfield/shader/vmt-base.vmt"
+	insert
+	{
+
+	}
+	replace
+	{
+	"$basetexture"						"diyu2025/GF2Exilium/Springfield/c_Springfield_slg_eyenew_d"
+	}
+}

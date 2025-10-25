@@ -1,0 +1,38 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.eggs/
+.eggs/
+.coverage
+htmlcov/
+.cache/
+
+# Logs and temp files
+*.log
+*.tmp
+tmp/
+temp/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Third-party binaries (do not commit external tools)
+**/VTFCmd.exe
+**/vtfcmd.exe

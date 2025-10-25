@@ -1,0 +1,38 @@
+Correct vtfcmd usage:
+ -file <path>             (Input file path.)
+ -folder <path>           (Input directory search string.)
+ -output <path>           (Output directory.)
+ -prefix <string>         (Output file prefix.)
+ -postfix <string>        (Output file postfix.)
+ -version <string>        (Output version.)
+ -format <string>         (Output format to use on non-alpha (colour) textures.)
+ -alphaformat <string>    (Output format to use on alpha textures.)
+ -srgb                    (Whether to treat image as sRGB colour space or not)
+ -flag <string>           (Output flags to set.)
+ -resize                  (Resize the input to a power of 2.)
+ -rmethod <string>        (Resize method to use.)
+ -rfilter <string>        (Resize filter to use.)
+ -rwidth <integer>        (Resize to specific width.)
+ -rheight <integer>       (Resize to specific height.)
+ -rclampwidth <integer>   (Maximum width to resize to.)
+ -rclampheight <integer>  (Maximum height to resize to.)
+ -gamma                   (Gamma correct image.)
+ -gcorrection <single>    (Gamma correction to use.)
+ -nomipmaps               (Don't generate mipmaps.)
+ -mfilter <string>        (Mipmap filter to use.)
+ -bumpscale <single>      (Engine bump mapping scale to use.)
+ -nothumbnail             (Don't generate thumbnail image.)
+ -noreflectivity          (Don't calculate reflectivity.)
+ -shader <string>         (Create a material for the texture.)
+ -param <string> <string> (Add a parameter to the material.)
+ -recurse                 (Process directories recursively.)
+ -exportformat <string>   (Convert VTF files to the format of this extension.)
+ -silent                  (Silent mode.)
+ -pause                   (Pause when done.)
+ -hdr                    (Indicate input is hdr.)
+ -help                    (Display vtfcmd help.)
+
+Example vtfcmd usage:
+vtfcmd.exe -file "C:\texture1.bmp" -file "C:\texture2.bmp" -format "dxt1"
+vtfcmd.exe -folder "C:\input\*.tga" -output "C:\output" -recurse -pause
+vtfcmd.exe -folder "C:\output\*.vtf" -output "C:\input" -exportformat "jpg"
